@@ -21,14 +21,14 @@ h1 {
 }
 
 .herodiv img {
-    position: fixed;
+    position: relative;
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
 }
 
 .stats {
-	position: fixed;
+	position: sticky;
 	bottom: 25px;
 	left: 15px;
 	background: radial-gradient(#eee, #323A06);
