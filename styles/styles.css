@@ -83,15 +83,14 @@ footer{
     text-align: var(--text-align);
 }
 
-/*Class selectors*/
+/* Class Selectors */
 
 .box{
     margin: 1rem;
     border: var(--border) solid #000;
     padding: 1rem;
     background-color: #abc4c6;
-    color: solid rgb(14, 171, 155);
-    
+    color: solid #abc4c6
 }
 .indent{
    padding-left: 2em;
