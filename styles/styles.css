@@ -82,11 +82,12 @@ footer{
     border-top: 1px solid #000;
     text-align: var(--text-align);
 }
-/* Class selectors */
+
+/*Class selectors*/
 
 .box{
     margin: 1rem;
-    border: var(--border) solid rgb(38, 136, 154/ 10%);
+    border: var(--border) solid #000;
     padding: 1rem;
     background-color: #abc4c6;
     color: solid rgb(14, 171, 155);
