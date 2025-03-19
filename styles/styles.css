@@ -90,7 +90,6 @@ footer{
     border: var(--border) solid #000;
     padding: 1rem;
     background-color: #abc4c6;
-    color: solid #000;
 }
 .indent{
    padding-left: 2em;
