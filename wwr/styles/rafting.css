@@ -55,9 +55,9 @@ p{
 }
 
 .hero {
-        position: relative; /* Permite que los hijos usen position absolute */
+        position: relative; 
         width: 100%;
-        max-width: 1200px; /* Evita que el contenedor sea demasiado ancho */
+        max-width: 1200px;
         margin: 0 auto;
         overflow: hidden;
     }
