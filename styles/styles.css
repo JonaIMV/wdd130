@@ -7,12 +7,14 @@
 body{
     font-size: 16px;
     font-family: Rubik, Arial;
+    
 }
 
 :root{
     --text-align: center;
     --border: 1px;
     --height: auto;
+    
     
     
 }

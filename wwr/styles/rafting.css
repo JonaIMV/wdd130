@@ -1,0 +1,101 @@
+:root{
+    --light-blue: #8ECAE6;
+    --blue: #219EBC;
+    --dark-blue: #023047;
+    --yellow: #FFB703;
+    --orange: #FB8500;
+}
+body{
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+p{
+    color: var(--dark-blue);
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 20px;
+}
+.sociallinks {
+    text-align: center; 
+    padding: 10px;
+    background-color: var(--orange);
+}
+.sociallinks a {
+    display: inline-block;
+    margin: 0 50px;
+    text-decoration: none;
+}
+.sociallinks img {
+    width: 40px; 
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.sociallinks img:hover {
+    transform: scale(1.2);
+}
+.main-container { 
+    position: relative; 
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.hero {
+        position: relative; /* Permite que los hijos usen position absolute */
+        width: 100%;
+        max-width: 1200px; /* Evita que el contenedor sea demasiado ancho */
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .hero h1 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .hero article {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 40%;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .hero article img {
+        float: right;
+        width: 70px; 
+        height: auto;
+        margin-left: 10px;
+    }
+    .hero article p {
+        margin: 0;
+        font-size: 1rem;
+        color: #023047;
+    }
