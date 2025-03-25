@@ -14,7 +14,24 @@ body{
   padding: 20px;
  
 }
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    text-decoration-line: none;
+}
 
+nav{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+    color: #219EBC;
+
+}
 
 h1, h2, h3 {
     font-family: "Lato", sans-serif;
