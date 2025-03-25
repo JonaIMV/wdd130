@@ -12,6 +12,7 @@ body{
   max-width: 1200px; 
   margin: 0 auto; 
   padding: 20px;
+ 
 }
 
 
@@ -23,17 +24,20 @@ h1, h2, h3 {
     text-transform: uppercase;
     text-align: center;
     margin: 20px 0;
+    
 }
 p{
     color: var(--dark-blue);
     line-height: 1.6;
     text-align: justify;
     margin: 10px 20px;
+    
 }
 .sociallinks {
     text-align: center; 
     padding: 10px;
     background-color: var(--orange);
+    
 }
 .sociallinks a {
     display: inline-block;
@@ -60,6 +64,7 @@ p{
         max-width: 1200px;
         margin: 0 auto;
         overflow: hidden;
+        
     }
     .hero img {
         display: block;
@@ -78,6 +83,7 @@ p{
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px 20px;
         border-radius: 5px;
+        
     }
     .hero article {
         position: absolute;
@@ -98,4 +104,5 @@ p{
         margin: 0;
         font-size: 1rem;
         color: #023047;
+        
     }
