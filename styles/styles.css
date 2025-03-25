@@ -21,7 +21,7 @@ body{
     --border: 1px;
     --height: auto;   
 }
-header,.grid, footer {
+header, footer,.grid {
 
     max-width: 840px;
     margin: 0 auto;
