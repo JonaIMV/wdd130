@@ -33,13 +33,13 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: var(--blue);
+    color: var(--dark-blue);
     font-weight: bold;
     padding: 10px;
 }
 
 
-h1, h2, h3 {
+h1,h2, h3 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -49,31 +49,72 @@ h1, h2, h3 {
     margin: 20px 0;
     
 }
-.history{
+
+
+.history h2 {
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.history-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
     gap: 20px;
-    align-items: center;
-    text-align: justify;
     max-width: 900px;
+    max-height: 500px;
+    overflow-y: auto;
     margin: 0 auto;
+}
+.history-text {
+    flex: 1 1 40%;
+    text-align: justify;
+}
+.history-container p {
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
 }
 .history img {
     display: block;
-    width: 100%;
-    max-width: 200px;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
-    background-color: var(--blue);
-    padding: 10px;
-    border-radius: 10px;
+    background-color: var(--orange);
+    padding: 5px;
 }
+
 .adventure {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-wrap:wrap;
     max-width: 900px;
     margin: 20px auto;
     text-align: center;
+    margin-bottom: 20px;
+}
+.adventure h2{
+    text-align: center;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.adventure figure {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+.adventure img {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 5px;
+}
+.adventure-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 p{
@@ -84,14 +125,17 @@ p{
     
 }
 .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
     text-align: center; 
     padding: 10px;
-    background-color: var(--orange);
+    
     
 }
 .sociallinks a {
     display: inline-block;
-    margin: 0 50px;
+    margin: 0 10px;
     text-decoration: none;
 }
 .sociallinks img {
@@ -137,13 +181,23 @@ p{
     }
     .hero article {
         position: absolute;
-        bottom: 10%;
-        left: 10%;
-        width: 40%;
+        bottom: 35%;
+        left: 20%;
+        width: 60%;
         background-color: var(--light-blue);
         padding: 15px;
         border-radius: 10px;
+        display: flex;
+        align-items:center ;
+        gap: 5px;
     }
+
+    .hero article img {
+        width: 70px;
+        height: auto;
+        order: 2;
+    }
+
     .hero article img {
         float: right;
         width: 70px; 
@@ -156,3 +210,15 @@ p{
         color: #023047;
         
     }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: var(--yellow);
+     
+}
+footer p{
+    width: 100%;
+    text-align: center;
+}
