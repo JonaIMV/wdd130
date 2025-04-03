@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+}
+body {
+    background: #ffffff;
+    color: #001d3d;
+}
+header{
+    margin: 0 auto;
+    width: 650px;
+ }
+ h1{
+    margin: 1rem;
+    color: #001d3d;
+    text-align: center;
+    font-size: 30px;
+ }
+ form{
+    width: 750px;
+    height:  auto;
+    margin: 0 auto ;
+    padding: 10px;
+    border: 3px solid #023047;
+    border-radius: 1rem;
+    background-color:#bbbbbb;
+    display: grid;
+    
+ }
+ fieldset{
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+ }
+ legend{
+    padding: .3em;
+    font-size: 23px;
+    color: #023047;
+ }
+ label{
+    text-align: left;
+    padding-right: 1rem;
+ }
+ input, select, textarea{
+    padding:1px;
+    font-size: 15px;
+ } 
+  
+input[type="radio"]{
+   width: 15px;
+   height: 15px;
+}
+button{
+    margin: 1rem;
+    background-color: #001d3d;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: .75rem;
+    border-radius: 1rem;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: #000000;
+ }
+ footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size:1em;
+    color: #001d3d;
+    border-top: 2px solid #468faf;
+ }
+ .column1{
+    display: grid;
+    align-items:center ;  
+ }
+ .column2{
+    display: grid;       
+ }
+ .column3{
+    display:flex;
+    
+ }
+ .column5{
+    display: grid;
+    grid-template-columns:1fr;
+    row-gap: .5rem;
+    margin: 1rem 10;
+    
+ }

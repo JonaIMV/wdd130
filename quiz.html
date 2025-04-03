@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Activity forms">
+        <meta name="author" content="Jonathan Isai Morales Valencia">
+        <title> WWD130 | Quiz Form</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Student name</legend>
+            <div class="column1">
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullanme">
+            </div>
+            </fieldset>
+            <fieldset>
+                <Legend>Quiz Html and CSS </Legend>
+            <div class="Column2">
+                <label for="q1">What is the way to add comments on CSS?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="column5">
+                <label for="q2">Which of the following elements are <strong>in line</strong> elements by default?</strong></label>
+            <pre>
+<strong>&lt;header&gt; &lt;div&gt; &lt;span&gt; &lt;table&gt; &lt;form&gt; &lt;a&gt; &lt;label&gt; &lt;button&gt; &lt;input&gt; &lt;p&gt; &lt;aside&gt; &lt;cite&gt;</strong>
+            </pre>
+                <textarea name="q2" id="q2" placeholder="Type your answer here"></textarea>
+            </div>
+            <div class="column4">
+                <label for="q3">It is a group of html functions</label>
+                <select name="q3" id="q3">
+                    <option value="">-Select one-</option>
+                    <option value="correct"><link> meta,style,title,h1,h2,h3,em.</option>
+                    <option value="incorrect1">flexbox,grid,display,align,items</option>
+                    <option value="incorrect2">text,shadow,border,radius,transform,opacity</option>
+                    <option value="incorrect3">add,event,listener,consolelog,quer,selector,local,storage</option>
+                </select>
+            </div>
+            <div >
+                <label for="q4">What does CSS flex does ?</label>
+            </div>
+            <div class="column3">
+                <input type="radio" id ="q4" name="second-question" value="true">
+                <label for="answer1"> The flex CSS display property makes creating and controlling responsive layouts easy especially in a single horizontal or vertical container.</label>
+                <input type="radio" id="q4" name="second-question" value="false">
+                <label for="answer2">CSS flex is used to give space between items and content to give more style to the text and give quality to the content.</label>
+            </div>
+            </fieldset>
+            <button type="submit">Submit quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 Basic HTML and CSS Quiz | Jonathan Isai Morales Valencia </p>
+
+    </footer>
