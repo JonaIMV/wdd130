@@ -91,6 +91,6 @@ button{
     display: grid;
     grid-template-columns:1fr;
     row-gap: .5rem;
-    margin: 1rem 10;
+    margin: 1rem ;
     
  }
