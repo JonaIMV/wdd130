@@ -222,3 +222,94 @@ footer p{
     width: 100%;
     text-align: center;
 }
+
+.info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.contact-container {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset.contact_info {
+    border: 2px solid var(--dark-blue);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #dddddd;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--dark-blue);
+}
+
+.form label,
+.feedback label,
+.checkbox-container label,
+.inquiry label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+    padding: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+.inquiry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.checkbox-container {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: var(--blue);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: var(--orange);
+}
