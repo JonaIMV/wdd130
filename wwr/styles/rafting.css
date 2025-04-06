@@ -286,7 +286,7 @@ legend {
 .form label,
 .feedback label,
 .checkbox-container label,
-.inquiry label {
+.inquiry{
     font-weight: bold;
     margin-bottom: 6px;
     display: block;
@@ -309,8 +309,7 @@ textarea {
 
 .inquiry {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap:70px;
     margin-top: 10px;
 }
 
@@ -334,3 +333,10 @@ button[type="submit"]:hover {
     background-color: var(--orange);
 }
 
+.box{box-sizing: border-box;
+
+}
+.purpose{
+    
+    font-weight: bold;
+}

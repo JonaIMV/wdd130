@@ -58,10 +58,10 @@
 
                 </div>
                 <div>
-                    <form>
+                    <form class="box">
                         <fieldset class="contact_info">
                             <legend>Contact Information</legend>
-                            <p>All fields are required to submit</p>
+                            <p class="purpose">All fields are required to submit</p>
                         <div class="form">
                             <label for="fullname">Full Name:</label>
                             <input type="text" id="fullname" name="fullnanme">
@@ -71,15 +71,16 @@
                             <input type="text" id="useremail" name="useremail">
                         </div>
                         <div >
-                            <label for="request">The purpose of your message is:</label>
+                            <p class="purpose">What is the porpuse of your message? Please select one</p>
                         </div>
-                        <div class="inquiry">
-                            <input type="radio" id ="inquiry" name="request" value="yes" >
+                        <div class="inquiry" >
                             <label for="inquiry"> General Inquiry.</label>
-                            <input type="radio" id="inquiry1" name="request" value="no">
+                            <input type="radio" id ="inquiry" name="request" value="yes" >
                             <label for="inquiry1"> Reservation Question.</label>
-                            <input type="radio" id="inquiry2" name="request" value="perhaps" >
+                            <input type="radio" id="inquiry1" name="request" value="no">
                             <label for="inquiry2"> Website Suggestion.</label>
+                            <input type="radio" id="inquiry2" name="request" value="perhaps" >
+                            
                         </div>
                         <div class="feedback">
                             <label for="feedback">Please share with us your message.</label>
