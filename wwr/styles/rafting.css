@@ -49,6 +49,22 @@ h1,h2, h3 {
     margin: 20px 0;
     
 }
+.employeprofiles img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--yellow);
+}
+.profiles{
+    display: flex;
+    gap: 280px;
+}
+
+.employeprofiles img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
 
 
 .history h2 {
@@ -313,3 +329,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: var(--orange);
 }
+
