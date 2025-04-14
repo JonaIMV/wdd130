@@ -32,9 +32,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px 40px;
   background-color: rgb(86, 86, 86); 
   z-index: 10;
@@ -66,12 +63,13 @@ nav a {
 }
 
 .nav-links {
+    
     display: flex;
-    gap: 300px;
+    gap:200px;
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
@@ -278,17 +276,15 @@ p {
     gap: 5px;
 }
 
-.hero article img {
-    width: 70px;
-    height: auto;
-    order: 2;
-}
+
 
 .hero article img {
     float: right;
-    width: 70px;
+    width: 100px;
     height: auto;
     margin-left: 10px;
+    order: 2;
+    
 }
 
 .hero article p {
