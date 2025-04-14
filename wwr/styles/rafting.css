@@ -28,14 +28,17 @@ header {
 
 
 .navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 40px;
-  background-color: rgb(86, 86, 86); 
-  z-index: 10;
-  box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(86, 86, 86); 
+    z-index: 10;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
@@ -65,16 +68,16 @@ nav a {
 .nav-links {
     
     display: flex;
-    gap:200px;
+    gap:80px;
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
     transition: background-color 0.3s;
-}
+  }
 
 .nav-links a:hover {
     background-color: #555;
