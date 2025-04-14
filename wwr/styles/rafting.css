@@ -250,6 +250,20 @@ p {
     height: auto;
     display: block;
 }
+.home{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
 
 .hero h1 {
     position: absolute;
@@ -423,7 +437,7 @@ button[type="submit"]:hover {
   }
   
   .rafting-intro h3 {
-    color: var(--blue);
+    color: var(--dark-blue);
     font-size: 1.5rem;
     margin-top: 20px;
   }
@@ -440,7 +454,7 @@ button[type="submit"]:hover {
     margin-top: 20px;
     padding: 12px 24px;
     background-color: var(--orange);
-    color: white;
+    color: var(--dark-blue);
     font-weight: bold;
     border-radius: 8px;
     text-decoration: none;
@@ -502,7 +516,7 @@ button[type="submit"]:hover {
   
   .newsletter-form button {
     background-color: var(--orange);
-    color: var(--dark-blue)
+    color: var(--dark-blue);
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
