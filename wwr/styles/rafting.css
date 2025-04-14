@@ -10,7 +10,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
-
+   
     margin: 0 auto;
     padding: 10px;
 
@@ -21,7 +21,7 @@ header {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-
+    
     padding: 10px 20px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 40px;
-    background-color: rgb(86, 86, 86);
+    background-color: rgb(86, 86, 86); 
     z-index: 10;
     box-sizing: border-box;
     display: flex;
@@ -66,9 +66,9 @@ nav a {
 }
 
 .nav-links {
-
+    
     display: flex;
-    gap: 80px;
+    gap:80px;
 }
 
 .nav-links a {
@@ -77,15 +77,14 @@ nav a {
     font-weight: bold;
     padding: 8px 12px;
     transition: background-color 0.3s;
-}
+  }
 
 .nav-links a:hover {
     background-color: #555;
     border-radius: 5px;
 }
-
 main {
-    padding-top: 100px;
+    padding-top: 100px; 
 }
 
 
@@ -251,8 +250,7 @@ p {
     height: auto;
     display: block;
 }
-
-.home {
+.home{
     position: absolute;
     top: 23%;
     left: 50%;
@@ -303,7 +301,7 @@ p {
     height: auto;
     margin-left: 10px;
     order: 2;
-
+    
 }
 
 .hero article p {
@@ -320,6 +318,10 @@ footer {
     padding: 20px;
     background-color: var(--yellow);
 
+}
+.wireframe{
+    color: var(--dark-blue);
+    
 }
 
 footer p {
@@ -426,33 +428,32 @@ button[type="submit"]:hover {
 
     font-weight: bold;
 }
-
 .rafting-intro {
     text-align: center;
     padding: 40px 20px;
     background-color: #f5f5f5;
-}
-
-.rafting-intro h2 {
+  }
+  
+  .rafting-intro h2 {
     color: var(--dark-blue);
     font-size: 2rem;
     margin-bottom: 10px;
-}
-
-.rafting-intro h3 {
+  }
+  
+  .rafting-intro h3 {
     color: var(--dark-blue);
     font-size: 1.5rem;
     margin-top: 20px;
-}
-
-.rafting-intro p {
+  }
+  
+  .rafting-intro p {
     font-size: 1.1rem;
     max-width: 800px;
     margin: 10px auto;
     color: var(--dark-blue);
-}
-
-.cta-button {
+  }
+  
+  .cta-button {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
@@ -462,63 +463,62 @@ button[type="submit"]:hover {
     border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
+  }
+  
+  .cta-button:hover {
     background-color: var(--yellow);
     color: black;
-}
-
-.gallery {
+  }
+  
+  .gallery {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
-
-.gallery img {
+  }
+  
+  .gallery img {
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.newsletter {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .newsletter {
     text-align: center;
     padding: 50px 20px;
     background-color: var(--light-blue);
-}
-
-.newsletter h2 {
+  }
+  
+  .newsletter h2 {
     color: var(--dark-blue);
     margin-bottom: 10px;
-}
-
-.newsletter p {
+  }
+  
+  .newsletter p {
     position: relative;
     left: 27rem;
-    font-size: 1.8rem;
+    font-size:1.8rem;
     margin-bottom: 20px;
     color: var(--dark-blue);
-
-}
-
-.newsletter-form {
+    
+  }
+  
+  .newsletter-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-}
-
-.newsletter-form input {
+  }
+  
+  .newsletter-form input {
     padding: 10px;
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1rem;
-}
-
-.newsletter-form button {
+  }
+  
+  .newsletter-form button {
     background-color: var(--orange);
     color: var(--dark-blue);
     padding: 10px 20px;
@@ -527,48 +527,47 @@ button[type="submit"]:hover {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.newsletter-form button:hover {
+  }
+  
+  .newsletter-form button:hover {
     background-color: var(--yellow);
     color: black;
-}
-
-.grid-info {
+  }
+  .grid-info {
     padding: 50px 20px;
     background-color: #fff;
     text-align: center;
-}
-
-.grid-info h2 {
+  }
+  
+  .grid-info h2 {
     font-size: 2rem;
     color: var(--dark-blue);
     margin-bottom: 30px;
-}
-
-.grid-container {
+  }
+  
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
     align-items: start;
-}
-
-.grid-item img {
+  }
+  
+  .grid-item img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.grid-item img:hover {
+  }
+  
+  .grid-item img:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-.grid-item p {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+  
+  .grid-item p {
     margin-top: 15px;
     font-size: 1rem;
     color: var(--dark-blue);
-}
+  }
