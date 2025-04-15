@@ -154,12 +154,14 @@ h4 {
 }
 
 .history img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: var(--orange);
     padding: 5px;
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 230px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .adventure {
