@@ -585,7 +585,7 @@ button[type="submit"]:hover {
     margin: 2rem 0;
   }
   
-  .adventure {
+  .adventuree {
     background-color: white;
     padding: 1.5rem;
     border-radius: 15px;
@@ -654,7 +654,7 @@ button[type="submit"]:hover {
   .trip-table tr:nth-child(even) {
     background-color: #f9f9f9;
   }
-  .adventure img {
+  .adventuree img {
     display: block;
     margin: 0 auto 1rem auto;
     width: 200px;
