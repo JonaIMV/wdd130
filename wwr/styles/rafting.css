@@ -499,7 +499,7 @@ button[type="submit"]:hover {
   
   .newsletter p {
     position: relative;
-    left: 27rem;
+    left: 17rem;
     font-size:1.8rem;
     margin-bottom: 20px;
     color: var(--dark-blue);
