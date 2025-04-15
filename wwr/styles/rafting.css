@@ -111,7 +111,7 @@ h3 {
 
 .profiles {
     display: flex;
-    gap: 150px;
+    gap: 350px;
 }
 
 h4 {
@@ -404,19 +404,20 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: var(--blue);
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
+    background-color: var(--orange);
+    color: var(--dark-blue);
+    padding: 10px 20px;
     border: none;
     border-radius: 6px;
-    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 
 }
 
 button[type="submit"]:hover {
-    background-color: var(--orange);
+    background-color: var(--yellow);
+    color: black;
 }
 
 .box {
@@ -570,4 +571,57 @@ button[type="submit"]:hover {
     margin-top: 15px;
     font-size: 1rem;
     color: var(--dark-blue);
+  }
+  .adventures {
+    padding: 2rem;
+    background-color: #f0f8ff; 
+    text-align: center;
+  }
+  
+  .adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .adventure {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adventure-button-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .book-now {
+    background-color: var(--orange);
+    color: var(--dark-blue);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now:hover {
+    background-color: var(--yellow);
+    color: black;
+  }
+  .trips{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
   }
